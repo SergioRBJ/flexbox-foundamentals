@@ -11,8 +11,10 @@ html, body, #app {
 
     /* Align the item following the opposite axis of flex-direction */
     align-items: flex-start;
+
     /* Align the item following the same axis of flex-direction */
     justify-content: space-between;
+
     /* Use when row wraps */
     align-content: flex-start;
 }
@@ -26,4 +28,17 @@ html, body, #app {
 
     /* Component redimention. This grows or reduces a component depending on screen */
     /* flex: 1; */
+}
+
+.red {
+    background: #f00;
+    order: 1;
+}
+.blue {
+    background: #00f;
+    order: 2;
+}
+.green {
+    background: #0f0;
+    order: 3;
 }
