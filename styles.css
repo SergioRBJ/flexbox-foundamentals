@@ -11,6 +11,7 @@ html, body, #app {
     align-items: flex-start;
     /* Align the item following the same axis of flex-direction */
     justify-content: space-between;
+    
 }
 
 .box {
@@ -19,4 +20,7 @@ html, body, #app {
     background: #f00;
     margin: 5px;
     border-radius: 4px;
+
+    /* Component rendimention. This grows or reduces a component depending on screen */
+    flex: 1;
 }
