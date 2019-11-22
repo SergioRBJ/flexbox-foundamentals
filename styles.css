@@ -5,7 +5,12 @@ html, body, #app {
 
 #app {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+
+    /* Align the item following the opposite axis of flex-direction */
+    align-items: flex-start;
+    /* Align the item following the same axis of flex-direction */
+    justify-content: space-between;
 }
 
 .box {
