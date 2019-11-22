@@ -7,20 +7,23 @@ html, body, #app {
     display: flex;
     flex-direction: row;
 
+    flex-wrap: wrap;
+
     /* Align the item following the opposite axis of flex-direction */
     align-items: flex-start;
     /* Align the item following the same axis of flex-direction */
     justify-content: space-between;
-    
+    /* Use when row wraps */
+    align-content: flex-start;
 }
 
 .box {
-    width: 60px;
+    width: 300px;
     height: 60px;
     background: #f00;
     margin: 5px;
     border-radius: 4px;
 
-    /* Component rendimention. This grows or reduces a component depending on screen */
-    flex: 1;
+    /* Component redimention. This grows or reduces a component depending on screen */
+    /* flex: 1; */
 }
