@@ -6,17 +6,7 @@ html, body, #app {
 #app {
     display: flex;
     flex-direction: row;
-
-    flex-wrap: wrap;
-
-    /* Align the item following the opposite axis of flex-direction */
-    align-items: flex-start;
-
-    /* Align the item following the same axis of flex-direction */
-    justify-content: space-between;
-
-    /* Use when row wraps */
-    align-content: flex-start;
+    margin-top: 15px;
 }
 
 .box {
