@@ -24,7 +24,7 @@ Vertical direction:
 ```css
     flex-direction: column;
 ```
-![VD](https://i.imgur.com/4JLg02L.jpg)
+![VD](https://imgur.com/5oRlp6L.jpg)
 
 ## Examples
 
