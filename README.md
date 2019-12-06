@@ -26,6 +26,16 @@ Vertical direction:
 ```
 ![VD](https://imgur.com/5oRlp6L.jpg)
 
+### Align the item following the opposite axis of flex-direction */
+```css
+    align-items: center;
+```
+
+### Align the item following the same axis of flex-direction */
+```css
+    justify-content: center;
+```
+
 ## Examples
 
 See layout examples in [examples page](https://github.com/SergioRBJ/flexbox-foundamentals/tree/master/examples).
