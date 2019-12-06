@@ -18,7 +18,7 @@ Horizontal direction(used by defaut):
 ```css
     flex-direction: row;
 ```
-[![Image description]https://imgur.com/sbdhx3O.jpg]
+![HD](https://imgur.com/sbdhx3O.jpg)
 
 Vertical direction:
 ```css
