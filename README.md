@@ -24,3 +24,8 @@ Vertical direction:
 ```css
     flex-direction: column;
 ```
+![VD](https://i.imgur.com/4JLg02L.jpg)
+
+## Examples
+
+See layout examples in [examples page](https://github.com/SergioRBJ/flexbox-foundamentals/tree/master/examples).
